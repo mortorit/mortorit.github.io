@@ -28,14 +28,14 @@ window.SITE_DATA = {
     },
     github: {
       label: "GitHub",
-      url: "",
-      kind: "disabled",
+      url: "https://github.com/mortorit",
+      kind: "muted",
       note: "Add your profile URL in assets/js/site-data.js",
     },
     linkedin: {
       label: "LinkedIn",
-      url: "",
-      kind: "disabled",
+      url: "https://www.linkedin.com/in/cristian-sbrolli-2275651b2/",
+      kind: "muted",
       note: "Add your profile URL in assets/js/site-data.js",
     },
   },
