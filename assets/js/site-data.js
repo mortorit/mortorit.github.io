@@ -43,40 +43,40 @@ window.SITE_DATA = {
     {
       title: "Multimodal representation learning",
       description:
-        "I work on shared embedding spaces that let models reason across images, text, and 3D data instead of treating them as isolated domains.",
+        "I work on shared representations across images, text, and 3D data.",
     },
     {
       title: "Synthetic data generation",
       description:
-        "I am interested in controllable synthetic pipelines that are not just visually plausible, but actually useful for downstream learning.",
+        "I am interested in controllable synthetic pipelines that are useful for downstream learning.",
     },
     {
       title: "3D understanding and generation",
       description:
-        "From image-conditioned 3D diffusion to text-3D alignment, I keep returning to the challenge of grounding structure in geometry.",
+        "I keep returning to problems around image-conditioned 3D diffusion and text-3D alignment.",
     },
     {
       title: "Compositional reasoning",
       description:
-        "I like exposing where current models fail on relations, binding, and structure, then designing methods and benchmarks that push them further.",
+        "I am interested in where current models fail on relations, structure, and composition.",
     },
   ],
   playlists: [
     {
       title: "Power Mode Placeholder",
-      subtitle: "Fast riffs, clean choruses, dramatic stamina.",
+      subtitle: "Placeholder for a heavier playlist.",
       badge: "YouTube Music placeholder",
       url: "https://music.youtube.com/",
     },
     {
       title: "Fantasy Raid Placeholder",
-      subtitle: "Symphonic textures and album-art energy for long writing sessions.",
+      subtitle: "Placeholder for a fantasy or symphonic metal playlist.",
       badge: "Replace with your playlist",
       url: "https://music.youtube.com/",
     },
     {
       title: "Progressive Focus Placeholder",
-      subtitle: "Long-form arrangements for coding, revising, and late-night experiments.",
+      subtitle: "Placeholder for a progressive playlist.",
       badge: "Ready to swap",
       url: "https://music.youtube.com/",
     },
@@ -86,19 +86,19 @@ window.SITE_DATA = {
       date: "February 2026",
       title: "Released the Auto-Comp preprint.",
       body:
-        "Auto-Comp proposes a scalable pipeline for probing compositional failures in contrastive vision-language models and was developed with Toshihiko Yamasaki and Matteo Matteucci.",
+        "A preprint on compositional probing for contrastive vision-language models, with Toshihiko Yamasaki and Matteo Matteucci.",
     },
     {
       date: "February 2026",
       title: "Released the PolyGen preprint.",
       body:
-        "PolyGen explores fully synthetic vision-language training through multi-generator ensembles, with collaborators at Politecnico di Milano and the University of Tokyo.",
+        "A preprint on fully synthetic vision-language training with collaborators from Politecnico di Milano and the University of Tokyo.",
     },
     {
       date: "December 2025",
       title: "Presented SceneForge at NeurIPS 2025.",
       body:
-        "SceneForge focuses on improving 3D-text alignment through structured scene compositions and was presented in San Diego at NeurIPS 2025.",
+        "SceneForge was presented at NeurIPS 2025 and focuses on improving 3D-text alignment with structured scene compositions.",
     },
     {
       date: "October 2025",
@@ -110,7 +110,7 @@ window.SITE_DATA = {
       date: "2025",
       title: "Neuro-Symbolic Scene Graph Conditioning received the Leonardo Fibonacci Best Paper Award at LOD 2025.",
       body:
-        "The work explored how symbolic structure can improve synthetic image generation for scene graph tasks.",
+        "This work studies how symbolic structure can improve synthetic image generation for scene graph tasks.",
     },
   ],
   publications: [
