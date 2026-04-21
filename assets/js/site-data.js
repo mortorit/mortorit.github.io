@@ -77,7 +77,7 @@ window.SITE_DATA = {
     {
       title: "The Contortionist - Language",
       subtitle: "Listen to this for a more experimental listening experience.",
-      badge: "Progressive metal",
+      badge: "Progressive metal.",
       url: "https://music.youtube.com/playlist?list=OLAK5uy_m6-cVPBE4xEJenhMZ58easUbQ8xPrjAEI&si=x01dDamkvHvnEy5t",
     },
   ],
