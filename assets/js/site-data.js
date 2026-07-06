@@ -83,6 +83,18 @@ window.SITE_DATA = {
   ],
   news: [
     {
+      date: "July 2026",
+      title: "Synesthesia accepted at ECCV 2026.",
+      body:
+        "Our paper \"Synesthesia via Direct Latent Augmentation: Bypassing the Decode-Encode Loop for Cross-Modal Distillation\", with Nicolas Michel, Matteo Matteucci, and Toshihiko Yamasaki, was accepted at ECCV 2026.",
+    },
+    {
+      date: "June 2026",
+      title: "Best Short Paper Award at SynthData4CV @ CVPR 2026.",
+      body:
+        "Our workshop paper \"Beyond Raw Signals: Undecoded Generative Latents as Privileged Synthetic Data\" won the Best Short Paper Award at SynthData4CV @ CVPR 2026.",
+    },
+    {
       date: "February 2026",
       title: "Released the Auto-Comp preprint.",
       body:
@@ -114,6 +126,25 @@ window.SITE_DATA = {
     },
   ],
   publications: [
+    {
+      title:
+        "Synesthesia via Direct Latent Augmentation: Bypassing the Decode-Encode Loop for Cross-Modal Distillation",
+      authors: "Cristian Sbrolli, Nicolas Michel, Matteo Matteucci, Toshihiko Yamasaki",
+      venue: "ECCV 2026",
+      year: 2026,
+      type: "Conference",
+      featured: true,
+      links: [],
+    },
+    {
+      title: "Beyond Raw Signals: Undecoded Generative Latents as Privileged Synthetic Data",
+      authors: "Cristian Sbrolli, Nicolas Michel, Matteo Matteucci, Toshihiko Yamasaki",
+      venue: "SynthData4CV @ CVPR 2026 — Best Short Paper Award",
+      year: 2026,
+      type: "Awarded workshop paper",
+      featured: false,
+      links: [],
+    },
     {
       title:
         "Auto-Comp: An Automated Pipeline for Scalable Compositional Probing of Contrastive Vision-Language Models",
