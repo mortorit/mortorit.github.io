@@ -155,7 +155,7 @@ window.SITE = {
     { name: "Resident Evil 4 (2023)", why: "The best remake of the best entry. Parry the chainsaw." },
     { name: "Resident Evil 2 (2019)", why: "Mr. X will follow you into your dreams." },
     { name: "Baldur's Gate 3", why: "A tabletop campaign that came to life. Fittingly, this whole site is one too." },
-    { name: "Hades", why: "One more run. Then one more. The soundtrack slaps." },
-    { name: "Slay the Spire", why: "For anyone who loves TFT-style decisions about builds and odds." },
+    { name: "Blasphemous", why: "A brutal pixel-art soulslike soaked in grim religious imagery. Gorgeous and punishing." },
+    { name: "Cult of the Lamb", why: "Cute animals, dungeon runs and your very own cult. Cuter than it sounds, darker than it looks." },
   ],
 };
