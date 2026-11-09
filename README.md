@@ -1,35 +1,44 @@
-# Cristian Sbrolli Website
+# Cristian Sbrolli · Module CS·26: The Latent Wyrm
 
-Static GitHub Pages website for a professional academic homepage with a separate publications page.
+Personal academic site, styled as an original tabletop adventure module.
+Plain HTML/CSS/JS on GitHub Pages: no build step and no dependencies.
 
-## Edit points
+## Pages
 
-- Main content and links live in `assets/js/site-data.js`.
-- Styling lives in `assets/css/styles.css`.
-- Homepage markup is in `index.html`.
-- Full publications page markup is in `publications/index.html`.
-- The bundled CV is `assets/docs/Cristian_Sbrolli_CV.pdf`.
+| Path | What it is |
+| --- | --- |
+| `index.html` | Homepage: hero + point-cloud dragon, news, selected papers, education map, awards, off-stage teaser |
+| `publications/` | All publications, grouped by year, with type filters |
+| `off-stage/` | The tavern: music recommendations, games, guitar (with a playable riff) |
 
-## Before publishing
+## Everyday edits: `assets/js/data.js`
 
-1. Replace the placeholder portrait by saving your actual photo as `assets/img/profile-photo.jpg`.
-2. Add your real `GitHub` and `LinkedIn` URLs in `assets/js/site-data.js`.
-3. Replace the YouTube Music placeholders in `assets/js/site-data.js` with your actual playlist URLs.
-4. If needed, update publication entries in `assets/js/site-data.js`.
+Almost everything is read from **`assets/js/data.js`**:
 
-## GitHub Pages setup
+- **New paper** → add an object at the top of `pubs`. Set `featured: true` to show it on the homepage,
+  `isNew: true` for the red "New" seal, `award: "Best paper"` for the gold seal (it also counts toward the
+  "Best paper" number on the dragon's stat block). Leave `links: []` to show "camera-ready soon".
+- **News** → add an object at the top of `news` (`html` may contain `<b>` and `<i>`).
+- **Citations / h-index** → update `scholar`.
+- **Music & games** → `onRepeat`, `shelf`, `playing`, `quests`.
 
-1. Create a new GitHub repository named `<your-username>.github.io`.
-2. Upload the contents of this folder to the repository root.
-3. Commit and push to the `main` branch.
-4. In GitHub, open `Settings -> Pages`.
-5. Under `Build and deployment`, choose `Deploy from a branch`.
-6. Select branch `main` and folder `/ (root)`.
-7. Save and wait for deployment.
-8. Your site will be published at `https://<your-username>.github.io/`.
+The paper count and award count update themselves.
 
-## Notes
+## Things that are hand-written HTML
 
-- This site uses only static HTML, CSS, and JavaScript, so it works directly on GitHub Pages without a build step.
-- A separate `publications/` page is already wired and uses the same shared data file as the homepage.
-- The current ORCID link was inferred from public metadata and should be confirmed.
+- Awards, service and education → `index.html`.
+- The map (pins, labels, map key) → the `<svg>` in the Education section of `index.html`.
+- The off-stage teaser on the homepage → the bottom of `index.html`.
+
+## Other files
+
+- `assets/css/site.css`: all styles (colour tokens at the top).
+- `assets/js/site.js`: renders the lists, plus the d20, the publication filters and the guitar riff.
+- `assets/js/wyrm.js`: the dragon that "denoises" from Gaussian noise (respects reduced-motion settings).
+- `assets/docs/Cristian_Sbrolli_CV.pdf`: the CV linked everywhere.
+
+## Easter eggs
+
+- **Roll** (d20 in the menu): jumps to a random paper or album. A natural 1 summons Reviewer 2.
+- Click the dragon plate to draw a new sample.
+- `Ctrl+P` prints a clean one-column "player handout" CV.

@@ -1,0 +1,106 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Off-stage · Cristian Sbrolli</title>
+<meta name="description" content="The tavern at the edge of the map: Cristian Sbrolli's power-metal recommendations, games (TFT, League of Legends, Resident Evil) and guitar.">
+<link rel="icon" href="../assets/img/favicon.svg" type="image/svg+xml">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Caveat:wght@500;700&family=Pirata+One&family=Vollkorn+SC:wght@400;600&family=Vollkorn:ital,wght@0,400;0,600;0,700;1,400;1,600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="../assets/css/site.css">
+<script defer src="../assets/js/data.js"></script>
+<script defer src="../assets/js/site.js"></script>
+</head>
+<body class="tavern-page" data-root="../" id="top">
+<a class="skip" href="#music">Skip to content</a>
+
+<div class="sheet">
+  <header class="mast">
+    <div class="code"><a href="../"><b>Module CS·26</b></a> &nbsp;·&nbsp; Interlude: the tavern</div>
+    <nav aria-label="Site">
+      <ul>
+        <li><a href="../">Home</a></li>
+        <li><a href="#music">Music</a></li>
+        <li><a href="#games">Games</a></li>
+        <li><a href="#guitar">Guitar</a></li>
+        <li><a href="../publications/">Publications</a></li>
+        <li><button class="d20btn" id="roll" type="button" aria-label="Roll a d20 for a random album"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 1.5l9.5 5.5v10L12 22.5 2.5 17V7z M12 1.5L6.5 15h11z M2.5 7l4 8M21.5 7l-4 8M6.5 15L12 22.5 17.5 15" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linejoin="round"/></svg>Roll</button></li>
+      </ul>
+    </nav>
+  </header>
+
+  <section class="tav-hero" aria-label="Introduction">
+    <div class="sign" aria-hidden="true">
+      <svg viewBox="0 0 150 170">
+        <path d="M10 6 h130" stroke="#C9A24A" stroke-width="5" stroke-linecap="round"/>
+        <path d="M40 6 v22 M110 6 v22" stroke="#C9A24A" stroke-width="2"/>
+        <rect x="16" y="28" width="118" height="128" rx="4" fill="#5A3F2A" stroke="#C9A24A" stroke-width="3"/>
+        <rect x="24" y="36" width="102" height="112" rx="2" fill="none" stroke="#C9A24A" stroke-width="1" stroke-dasharray="3 3"/>
+        <path d="M42 70 h36 v52 a6 6 0 0 1 -6 6 h-24 a6 6 0 0 1 -6 -6z" fill="#E8C66A" stroke="#2A1E16" stroke-width="2.5"/>
+        <path d="M78 80 h8 a8 8 0 0 1 8 8 v14 a8 8 0 0 1 -8 8 h-8" fill="none" stroke="#2A1E16" stroke-width="5"/>
+        <path d="M38 70 c4 -12 14 -10 18 -6 c4 -8 16 -8 18 0 c6 -4 12 2 8 8z" fill="#F5ECD6" stroke="#2A1E16" stroke-width="2"/>
+        <path d="M52 84 v32 M62 84 v32" stroke="#2A1E16" stroke-width="2" opacity=".5"/>
+        <path d="M98 56 l24 -14" stroke="#F5ECD6" stroke-width="5" stroke-linecap="round"/>
+        <path d="M118 40 l8 -4 l2 5 l-7 4z" fill="#F5ECD6"/>
+        <path d="M96 58 c-12 4 -14 18 -6 22 c4 2 6 -2 10 0 c6 4 14 0 14 -8 c0 -8 -8 -10 -10 -16z" fill="#A3361B" stroke="#2A1E16" stroke-width="2"/>
+      </svg>
+    </div>
+    <div>
+      <p class="kicker">The tavern at the edge of the map</p>
+      <h1>Off-stage</h1>
+      <p>No deadlines in here. This is where I keep the music, the games and the guitar that keep me going between submissions. Pull up a stool; recommendations are always welcome at <a href="mailto:cristian.sbrolli@polimi.it">cristian.sbrolli@polimi.it</a>.</p>
+    </div>
+  </section>
+
+  <!-- ===================== MUSIC ===================== -->
+  <section class="chapter" id="music" aria-labelledby="h-music">
+    <div class="chead"><span class="num">Verse I</span><h2 id="h-music">Music</h2><span class="alias">on the bard's playlist</span></div>
+    <p class="lede">Mostly adventure and fantasy metal, power metal and symphonic metal, with some progressive detours. These three are on repeat right now:</p>
+    <ul class="cards" id="onrepeat"></ul>
+
+    <h3 class="h-small" style="color:var(--brass);margin-top:36px">The bard's shelf: if you like dragons, start here</h3>
+    <ul class="cards" id="shelf"></ul>
+  </section>
+
+  <!-- ===================== GAMES ===================== -->
+  <section class="chapter" id="games" aria-labelledby="h-games">
+    <div class="chead"><span class="num">Verse II</span><h2 id="h-games">Games</h2><span class="alias">at the gaming table</span></div>
+    <div class="games">
+      <div>
+        <h3>Currently playing</h3>
+        <ul id="playing"></ul>
+      </div>
+      <div>
+        <h3>Side quests worth taking</h3>
+        <ul id="quests"></ul>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===================== GUITAR ===================== -->
+  <section class="chapter" id="guitar" aria-labelledby="h-guitar">
+    <div class="chead"><span class="num">Verse III</span><h2 id="h-guitar">Guitar</h2><span class="alias">by the fire</span></div>
+    <div class="bard">
+      <div>
+        <pre class="tab" id="tab" aria-label="Guitar tablature of a power-metal gallop riff in E">E|0--0-0-...</pre>
+        <button class="riffbtn" id="riff" type="button" aria-pressed="false">Play the riff</button>
+        <p class="note-small">Synthesised in your browser with the Web Audio API: two detuned saws, a distortion curve and a low-pass filter. Turn the volume down first.</p>
+      </div>
+      <div>
+        <p style="margin:0">I play electric guitar, mostly power-metal riffs and the occasional attempt at a solo that is far too fast for me. The riff on the left is the classic gallop (one eighth note, two sixteenths) that half the genre is built on, in E, the only correct key.</p>
+        <p>Other things by the fire: I'm learning Japanese (日本語、勉強中), a habit that started before Tokyo and kept going after.</p>
+      </div>
+    </div>
+  </section>
+</div>
+
+<footer class="colophon">
+  <span>© 2026 Cristian Sbrolli · <a href="../">Back to the module</a></span>
+  <span>Press the d20 for a random album · <a href="#top">Top ↑</a></span>
+</footer>
+
+<div class="toast" id="toast" role="status" aria-live="polite"></div>
+</body>
+</html>
