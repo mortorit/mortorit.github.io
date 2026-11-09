@@ -330,7 +330,6 @@ h1{font:400 clamp(3rem,7vw,5.2rem)/.92 var(--display);margin:0;letter-spacing:.0
 }
 .riffbtn:hover{background:#fff}
 .riffbtn[aria-pressed="true"]{background:#F08A63}
-.note-small{font-size:.88rem;color:var(--wood-mute);font-style:italic;margin:8px 0 0}
 
 /* ---------- footer + toast ---------- */
 .colophon{display:flex;justify-content:space-between;gap:10px;flex-wrap:wrap;max-width:1180px;margin:14px auto 0;color:#9DB0AA;font:.85rem/1.4 var(--serif)}

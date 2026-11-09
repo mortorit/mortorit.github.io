@@ -130,7 +130,7 @@
       <div class="scroll" id="mapscroll" tabindex="0" aria-label="Journey map (scrolls sideways on small screens)">
       <svg viewBox="0 0 1000 500" role="img" aria-labelledby="map-t map-d">
         <title id="map-t">Map of the journey</title>
-        <desc id="map-d">A hand-drawn style map. Home keep: Milano, Politecnico di Milano (B.Sc. 2017, M.Sc. 2022, PhD 2023 to present). Main route to Tokyo, University of Tokyo, visiting PhD 2025. Numbered pins mark conference venues: ICIAP Udine 2023, IJCNN Yokohama 2024, BMVC Glasgow 2024, ICIAP Rome 2025, NeurIPS San Diego 2025, CVPR Denver 2026, ECCV Malmö 2026, NeurIPS Sydney 2026.</desc>
+        <desc id="map-d">A hand-drawn style map. Home keep: Milano, Politecnico di Milano (B.Sc. 2017, M.Sc. 2022, PhD 2023 to present). Main route to Tokyo, University of Tokyo, visiting PhD 2025. Numbered pins mark conference venues: ICIAP Udine 2023, IJCNN Yokohama 2024, BMVC Glasgow 2024, ICIAP Rome 2025, NeurIPS San Diego 2025, CVPR Denver 2026, ECCV Malmö 2026, NeurIPS Paris satellite 2026.</desc>
         <defs>
           <filter id="rough" x="-5%" y="-5%" width="110%" height="110%">
             <feTurbulence type="fractalNoise" baseFrequency=".04" numOctaves="2" seed="7"/>
@@ -163,13 +163,12 @@
             <path id="jp" d="M906,212 C918,238 928,268 924,294 C920,318 898,332 872,346 C856,354 842,362 832,354 C846,340 866,330 882,316 C896,300 902,280 898,256 C894,236 896,220 906,212 Z"/>
             <path id="hk" d="M912,176 C926,172 940,182 936,196 C928,204 914,204 908,196 C904,188 906,180 912,176 Z"/>
             <path id="ky" d="M826,362 C836,358 844,366 840,378 C834,388 822,386 818,378 C816,370 820,364 826,362 Z"/>
-            <path id="au" d="M770,504 C772,478 790,462 812,458 C826,446 846,440 862,448 C876,452 884,442 892,450 C906,462 920,480 926,504 Z"/>
           </g>
           <g fill="#EEE7D6" stroke="#1D1B18" stroke-width="2.2" stroke-linejoin="round">
-            <use href="#am"/><use href="#eu"/><use href="#gb"/><use href="#ie"/><use href="#jp"/><use href="#hk"/><use href="#ky"/><use href="#au"/>
+            <use href="#am"/><use href="#eu"/><use href="#gb"/><use href="#ie"/><use href="#jp"/><use href="#hk"/><use href="#ky"/>
           </g>
           <g fill="url(#hatch)">
-            <use href="#am"/><use href="#eu"/><use href="#gb"/><use href="#ie"/><use href="#jp"/><use href="#hk"/><use href="#ky"/><use href="#au"/>
+            <use href="#am"/><use href="#eu"/><use href="#gb"/><use href="#ie"/><use href="#jp"/><use href="#hk"/><use href="#ky"/>
           </g>
         </g>
 
@@ -209,6 +208,7 @@
         <!-- dotted lines: venues, not necessarily trips -->
         <g fill="none" stroke="#1D1B18" stroke-opacity=".7" stroke-width="1.6" stroke-dasharray="1 6" stroke-linecap="round">
           <path d="M522 286 Q540 270 556 280"/>
+          <path d="M522 286 Q510 268 496 262"/>
           <path d="M522 286 Q522 320 552 340"/>
           <path d="M522 286 Q470 220 448 176"/>
           <path d="M522 286 Q560 220 574 176"/>
@@ -256,7 +256,7 @@
           <g transform="translate(82 328)"><use href="#pin"/><text y="-18">5</text></g>
           <g transform="translate(168 254)"><use href="#pin"/><text y="-18">6</text></g>
           <g transform="translate(574 178)"><use href="#pin"/><text y="-18">7</text></g>
-          <g transform="translate(884 486)"><use href="#pin"/><text y="-18">8</text></g>
+          <g transform="translate(496 262)"><use href="#pin"/><text y="-18">8</text></g>
         </g>
 
         <!-- hand labels -->
@@ -269,7 +269,7 @@
             <text x="92" y="362" text-anchor="middle">San Diego '25</text>
             <text x="190" y="282">Denver '26</text>
             <text x="594" y="150">Malmö '26</text>
-            <text x="866" y="478" text-anchor="end">Sydney '26</text>
+            <text x="480" y="281" text-anchor="end">Paris '26</text>
           </g>
         </g>
       </svg>
@@ -297,7 +297,7 @@
           <li><span class="k">5</span>NeurIPS · San Diego<span class="yr">2025</span></li>
           <li><span class="k">6</span>CVPR · Denver<span class="yr">2026</span></li>
           <li><span class="k">7</span>ECCV · Malmö<span class="yr">2026</span></li>
-          <li><span class="k">8</span>NeurIPS · Sydney<span class="yr">2026</span></li>
+          <li><span class="k">8</span>NeurIPS · Paris (satellite)<span class="yr">2026</span></li>
         </ol>
       </div>
     </div>
